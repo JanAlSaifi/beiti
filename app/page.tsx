@@ -3,18 +3,26 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <section className="homeSection">
-        <div className="grid grid-cols-2 ">
-          <div className="bg-red-500"></div>
-          <div>
-            <h1>Beiti</h1>
-            <h2>feine libanesische Küche</h2>
-          </div>
+      <section className="homeSection h-screen">
+        <div className="absolute inset-0">
+          <img
+            src="/michael-starkie.jpg"
+            alt="Hintergrundbild"
+            className="w-full h-full object-cover filter blur-sm"
+          ></img>
+        </div>
+        <div className="relative flex flex-col h-screen justify-center items-center">
+          <h1 className="text-9xl font-bold mb-5">Beiti</h1>
+          <h2 className="text-3xl italic text-neutral-500 dark:text-neutral-400 mb-8">
+            feine libanesische Küche
+          </h2>
         </div>
       </section>
-      <section className="aboutSection">
+      <section className="aboutSection h-screen">
         <div className="grid grid-cols-2 ">
-          <div className="bg-blue-500"></div>
+          <div className="bg-blue-500">
+            <img src="/michael-starkie-UnF992yroQo-unsplash.jpg"></img>
+          </div>
           <div>
             <h2 className="">Über uns</h2>
             <p className="">
@@ -45,9 +53,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="popularSection">
+      <section className="popularSection h-screen">
         <div className="grid grid-cols-2 ">
-          <div className="bg-red-500"></div>
+          <div className="bg-red-500">
+            <img src="/michael-starkie-UnF992yroQo-unsplash.jpg"></img>
+          </div>
           <div>
             <div className="grid grid-cols-4">
               <div className="">
@@ -94,9 +104,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="menuCardSection">
+      <section className="menuCardSection h-screen">
         <div className="grid grid-cols-2 ">
-          <div className="bg-green-500"></div>
+          <div className="bg-green-500">
+            <img src="/michael-starkie-UnF992yroQo-unsplash.jpg"></img>
+          </div>
           <div className="">
             <div className="">
               <h2 className="">Aus der Speisekarte</h2>
@@ -204,9 +216,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="cateringSection">
+      <section className="cateringSection h-screen">
         <div className="grid grid-cols-2 ">
-          <div className="bg-red-500"></div>
+          <div className="bg-red-500">
+            <img src="/michael-starkie-UnF992yroQo-unsplash.jpg"></img>
+          </div>
           <div>
             <div className="">
               <div className="">
@@ -277,9 +291,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="contactSection">
+      <section className="contactSection h-screen">
         <div className="grid grid-cols-2">
-          <div className="bg-orange-500"></div>
+          <div className="bg-orange-500">
+            <img src="/michael-starkie-UnF992yroQo-unsplash.jpg"></img>
+          </div>
           <div>
             <h2 className="">Reservieren Sie einen Tisch</h2>
 
