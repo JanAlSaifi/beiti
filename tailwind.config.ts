@@ -9,6 +9,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        home: "url('/michael-starkie.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -12,10 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
-      <body className="fullscreen-background">
+    <html lang="en">
+      <body className="relativ">
         <main className="">
-          <nav className="">
+          <nav className="z-50">
             <a href="#home">Home</a>
             <a href="#about">Über</a>
             <a href="#popular">Beliebt</a>
@@ -23,10 +23,10 @@ export default function RootLayout({
             <a href="#contact">Reservierung</a>
           </nav>
 
-          <div className="px-40">{children}</div>
+          <div className="text-center dark:text-neutral-200">{children}</div>
         </main>
 
-        <footer>
+        <footer className="text-center bg-black text-neutral-200">
           <p className="">
             <a href="tel:04069459970" className="tel">
               Rufen Sie uns an: 040 69459970
