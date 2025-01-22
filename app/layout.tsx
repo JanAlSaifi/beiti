@@ -37,22 +37,54 @@ export default function RootLayout({
           <nav aria-label="Navigation" className="peer-checked:hidden">
             <ul className="flex flex-col gap-7 pt-40">
               <li className="">
-                <a className="border-2 px-6 py-2 rounded-xl " href="#">
+                <a
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
+                   transition-all duration-600 ease-in-out
+                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
+                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
+                   hover:scale-105 
+                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  href="#"
+                >
                   Active
                 </a>
               </li>
               <li className="">
-                <a className="border-2 px-6 py-2 rounded-xl " href="#">
+                <a
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
+                   transition-all duration-600 ease-in-out
+                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
+                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
+                   hover:scale-105 
+                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  href="#"
+                >
                   Active
                 </a>
               </li>
               <li className="">
-                <a className="border-2 px-6 py-2 rounded-xl " href="#">
+                <a
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
+                   transition-all duration-600 ease-in-out
+                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
+                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
+                   hover:scale-105 
+                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  href="#"
+                >
                   Active
                 </a>
               </li>
               <li className="">
-                <a className="border-2 px-6 py-2 rounded-xl " href="#">
+                <a
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
+                   transition-all duration-600 ease-in-out
+                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
+                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
+                   hover:scale-105 
+                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  href="#"
+                >
                   Active
                 </a>
               </li>
