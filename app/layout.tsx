@@ -19,7 +19,7 @@ export default function RootLayout({
           <label className="cursor-pointer" htmlFor="navbar-open">
             <span className="sr-only">Toggle Navigation</span>
             <svg
-              className="w-10 h-10 "
+              className="w-10 h-10 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -34,16 +34,22 @@ export default function RootLayout({
               />
             </svg>
           </label>
-          <nav aria-label="Navigation" className="peer-checked:hidden">
+          <nav
+            aria-label="Navigation"
+            className="peer-checked:hidden text-white"
+          >
             <ul className="flex flex-col gap-7 pt-40">
               <li className="">
                 <a
-                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
-                   transition-all duration-600 ease-in-out
-                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
-                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
-                   hover:scale-105 
-                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground"
+                  href="#"
+                >
+                  Über uns
+                </a>
+              </li>
+              <li className="">
+                <a
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground"
                   href="#"
                 >
                   Active
@@ -51,41 +57,26 @@ export default function RootLayout({
               </li>
               <li className="">
                 <a
-                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
-                   transition-all duration-600 ease-in-out
-                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
-                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
-                   hover:scale-105 
-                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground"
                   href="#"
                 >
-                  Active
+                  Speisekarte
                 </a>
               </li>
               <li className="">
                 <a
-                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
-                   transition-all duration-600 ease-in-out
-                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
-                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
-                   hover:scale-105 
-                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground"
                   href="#"
                 >
-                  Active
+                  Catering
                 </a>
               </li>
               <li className="">
                 <a
-                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground 
-                   transition-all duration-600 ease-in-out
-                   hover:bg-gradient-to-br hover:from-[#d4af37] hover:to-[#b8860b] 
-                   hover:text-[#171717] hover:shadow-[0px_4px_10px_rgba(212,175,55,0.5)] 
-                   hover:scale-105 
-                   active:scale-100 active:shadow-[0px_2px_5px_rgba(212,175,55,0.3)]"
+                  className="text-[18px] font-bold px-6 py-2 rounded-3xl text-foreground"
                   href="#"
                 >
-                  Active
+                  Reservierung
                 </a>
               </li>
             </ul>
@@ -93,15 +84,6 @@ export default function RootLayout({
         </div>
 
         <main className="">
-          {/* 
-          <nav className="z-50">
-            <a href="#home">Home</a>
-            <a href="#about">Über</a>
-            <a href="#popular">Beliebt</a>
-            <a href="#catering">Catering</a>
-            <a href="#contact">Reservierung</a>
-          </nav> */}
-
           <div className="text-center dark:text-neutral-200">{children}</div>
         </main>
 
