@@ -9,6 +9,10 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        title: ["Roboto", "sans-serif"],
+        text: ["Proza Libre", "serif"],
+      },
       backgroundImage: {
         home: "url('/michael-starkie.jpg')",
       },

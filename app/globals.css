@@ -3,10 +3,24 @@
 @tailwind utilities;
 
 :root {
+  --background: #1a1a1a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+  }
+}
+
+@layer base {
+  body {
+    @apply font-text;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-title;
   }
 }
 
@@ -43,4 +57,4 @@ nav a:hover {
 nav a:active {
   transform: scale(1);
   box-shadow: 0px 2px 5px rgba(212, 175, 55, 0.3);
-} 
+}

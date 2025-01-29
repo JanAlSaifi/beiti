@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body>
         <div className="fixed top-0 pl-5 pt-5 z-10">
           <input className="peer hidden" type="checkbox" id="navbar-open" />
           <label className="cursor-pointer" htmlFor="navbar-open">
@@ -84,24 +84,24 @@ export default function RootLayout({
         </div>
 
         <main className="">
-          <div className="text-center dark:text-neutral-200">{children}</div>
+          <div className="text-center bg-background">{children}</div>
         </main>
 
-        <footer className="text-center bg-black text-neutral-200">
+        <footer className="text-center bg-background text-[#f5f5f5]">
           <p className="">
             <a href="tel:04069459970" className="tel">
               Rufen Sie uns an: 040 69459970
             </a>
           </p>
           <p className="">
-            &copy; 2021 Restaurant Beiti. Alsterdorfer Str. 76, 22299 Hamburg.
+            &copy; 2025 Restaurant Beiti. Alsterdorfer Str. 76, 22299 Hamburg.
             Mo.-Sa. 17.00 - 23.00 Uhr, Küche bis 22.00 Uhr.
             <br />
             <a href="images/Impressum.pdf" target="_blank">
-              Impressum.
+              Impressum
             </a>
             <br />
-            Bilder & Design: Jan
+            Bilder & Design: Jan Al Saifi
           </p>
           <p className="">
             <a href="#" className="js-gotop">

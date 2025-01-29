@@ -15,7 +15,22 @@ export default function AboutSection() {
           <p className="text-[#f5f5f5] leading-relaxed mb-5">
             <span className="font-bold text-lg text-[#f5f5f5]">G</span>
             astfreundschaft hat im Libanon eine lange Tradition. Freunde
-            ausgiebig zu bewirten, ...
+            ausgiebig zu bewirten, Fremde zu Freunden zu machen, gemeinsam
+            essen, plaudern, sich entspannen,dies alles sind Charakterzüge, auf
+            die die Libanesen stolz sind. Im Beiti wird diese Tradition
+            sorgfältig gepflegt. Wer hierher kommt, freut sich nicht nur auf die
+            unverfälschte, exzellente libanesische Küche, sondern auf eine
+            Atmosphäre, die den Gast für ein paar Stunden aus dem hektischen
+            Alltag in eine andere Welt entführt. Deswegen legt man im Beiti auch
+            so großen Wert auf das Ambiente, das mit seinen freundlichen Farben
+            und seiner geschmackvollen Einrichtung den modernen Libanon
+            verkörpert: ein Land, das am Fortschritt teilnimmt, ohne seine
+            Herkunft zu verleugnen Aber selbstverständlich bilden diese
+            Äußerlichkeiten nur den Rahmen dessen, was den Gast im Beiti
+            erwartet: Die herzliche Begrüßung, die persönliche Betreuung bei der
+            Auswahl von Speisen und Getränken und eine kurze Einführung in die
+            typisch arabische Esstechnik. Entdecken Sie also die libanesische
+            Gastfreundschaft in der schönsten Stadt der Welt: Hamburg!
           </p>
           <p className="mt-5">
             <a href="#" className="text-[#b8860b] underline">
