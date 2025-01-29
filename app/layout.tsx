@@ -87,7 +87,7 @@ export default function RootLayout({
           <div className="text-center dark:text-neutral-200">{children}</div>
         </main>
 
-        {/* <footer className="text-center bg-black text-neutral-200">
+        <footer className="text-center bg-black text-neutral-200">
           <p className="">
             <a href="tel:04069459970" className="tel">
               Rufen Sie uns an: 040 69459970
@@ -100,17 +100,15 @@ export default function RootLayout({
             <a href="images/Impressum.pdf" target="_blank">
               Impressum.
             </a>
-            Bilder & Design:
-            <a href="" target="_blank">
-              Jan
-            </a>
+            <br />
+            Bilder & Design: Jan
           </p>
           <p className="">
             <a href="#" className="js-gotop">
               Nach Oben
             </a>
           </p>
-        </footer> */}
+        </footer>
       </body>
     </html>
   );
