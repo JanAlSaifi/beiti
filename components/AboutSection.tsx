@@ -1,12 +1,12 @@
 export default function AboutSection() {
   return (
-    <section className="aboutSection h-screen pb-8">
+    <section id="aboutSection" className="h-screen pb-8">
       <div className="flex flex-col lg:flex-row w-full h-full">
-        <div className="hidden md:block lg:w-2/3 h-full">
+        <div className="hidden md:block lg:w-2/3 h-full p-2 ">
           <img
-            src="/slide_1.jpg"
+            src="BeitiFrontBreit.jpg"
             alt="slider image"
-            className="w-full h-full object-cover blur-xs brightness-50"
+            className="w-full h-full object-cover blur-xs brightness-50 rounded-lg"
           />
         </div>
 

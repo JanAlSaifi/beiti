@@ -15,13 +15,6 @@ export default function MenuSection() {
       backgroundImage: "/IMG_20210928_124523.jpg",
     },
     {
-      title: "Almaza - das libanesisches Bier",
-      price: "4.00€",
-      description:
-        "Nr. 1 im Libanon,Zart und Mild mit einem hauch von Mais. z.Z. leider ausverkauft",
-      backgroundImage: "/res_img_70.jpg",
-    },
-    {
       title: "Château Musar Jeune",
       price: "58.00€",
       description:
@@ -51,7 +44,7 @@ export default function MenuSection() {
   ];
 
   return (
-    <section className="">
+    <section id="menu" className="">
       <div className="bg-[rgb(26,26,26)] py-16">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">

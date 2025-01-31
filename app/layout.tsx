@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "@/components/NavigationSection";
 
 export const metadata: Metadata = {
   title: "Beiti ",
@@ -15,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
         <main className="text-center bg-background">{children}</main>
 
         <footer className="text-center bg-background text-[#f5f5f5] py-10">

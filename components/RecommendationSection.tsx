@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function RecommendationSection() {
   return (
-    <section className="pb-10 relative">
+    <section id="recommendation" className="pb-10 relative">
       <div className="bg-[#2b2b2b] rounded-lg shadow-lg mx-10 p-4">
         <div className="">
           <h2 className="text-4xl font-bold text-[#d4af37] py-4 text-center">

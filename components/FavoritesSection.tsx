@@ -45,7 +45,10 @@ export default function FavoritesSection() {
   ];
 
   return (
-    <section className="pb-10 favSection min-h-screen flex items-stretch overflow-hidden">
+    <section
+      id="favorites"
+      className="pb-10  min-h-screen flex items-stretch overflow-hidden"
+    >
       <div className="mx-10 py-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-[#d4af37]">

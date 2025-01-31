@@ -27,7 +27,7 @@ export default function CateringSection() {
   ];
 
   return (
-    <section className="py-10">
+    <section id="catering" className="py-10">
       <div className="relative container mx-auto px-6 py-8 text-center">
         <div className="max-w-4xl mx-auto mb-12">
           <h2 className="text-4xl font-bold text-[#d4af37] mb-4">
