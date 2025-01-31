@@ -45,10 +45,10 @@ export default function FavoritesSection() {
   ];
 
   return (
-    <section className="favSection h-screen overflow-x-hidden bg-[#1a1a1a]">
-      <div className="py-8">
+    <section className="pb-10 favSection min-h-screen flex items-stretch overflow-hidden">
+      <div className="mx-10 py-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-[#f5f5f5]">
+          <h2 className="text-4xl font-bold text-[#d4af37]">
             Favoriten der Gäste
           </h2>
           <p className="text-lg text-[#f5f5f5] mt-4">

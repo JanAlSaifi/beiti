@@ -5,14 +5,15 @@ import FavoritesSection from "@/components/FavoritesSection";
 import DivideSection from "@/components/DivideSection";
 import MenuSection from "@/components/MenuSection";
 import CateringSection from "@/components/CateringSection";
+import RecommendationSection from "@/components/RecommendationSection";
 
 export default function Home() {
   return (
     <>
       <HomeSection />
       <AboutSection />
+      <RecommendationSection />
       <FavoritesSection />
-      <DivideSection />
       <MenuSection />
       <CateringSection />
     </>

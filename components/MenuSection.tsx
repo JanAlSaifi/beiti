@@ -42,6 +42,12 @@ export default function MenuSection() {
       description: "Mesa, Lammrückenfilet auf Joghurt-minz-sauce, Katayf",
       backgroundImage: "/res_img_7.jpg",
     },
+    {
+      title: "Grillmenü",
+      price: "37.50€",
+      description: "Speisen Sie wie im Libanon, Ab 2 Personen",
+      backgroundImage: "/res_img_6.jpg",
+    },
   ];
 
   return (
