@@ -6,7 +6,7 @@ export default function Navigation() {
   const toggleNav = () =>
     navRef.current && navRef.current.classList.toggle("hidden");
   return (
-    <nav className="w-full bg-[#2b2b2b] bg-opacity-75 rounded-lg z-20 fixed top-0">
+    <nav className="w-full bg-[#f5f5f5] bg-opacity-75 rounded-lg z-20 fixed top-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
@@ -35,7 +35,7 @@ export default function Navigation() {
           </button>
         </div>
         <div ref={navRef} className="hidden w-full md:flex md:w-auto">
-          <ul className="relative flex  flex-col p-4 m-2 md:p-0 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row ">
+          <ul className="relative flex flex-col p-4 m-2 gap-4 md:p-0 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row whitespace-nowrap">
             <li>
               <a href="#" className="">
                 Home
@@ -67,7 +67,7 @@ export default function Navigation() {
               </a>
             </li>
             <li>
-              <a href="#" className="">
+              <a href="#reservation" className="">
                 Reservierung
               </a>
             </li>

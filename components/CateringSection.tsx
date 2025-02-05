@@ -13,7 +13,7 @@ export default function CateringSection() {
       titleDescription: "'a la carte",
       Description:
         "Von Mesa bis zu leckeren Desserts – unser Catering-Service sorgt für die richtige Verpflegung auf jedem Event.",
-      linkTitle: "Weinkarte",
+      linkTitle: "Cateringkarte",
       href: "/Catering-.pdf",
     },
     {
@@ -27,7 +27,7 @@ export default function CateringSection() {
   ];
 
   return (
-    <section id="catering" className="py-10">
+    <section id="catering" className="pb-10">
       <div className="relative container mx-auto px-6 py-8 text-center">
         <div className="max-w-4xl mx-auto mb-12">
           <h2 className="text-4xl font-bold text-[#d4af37] mb-4">

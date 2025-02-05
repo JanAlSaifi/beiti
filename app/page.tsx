@@ -5,6 +5,7 @@ import MenuSection from "@/components/MenuSection";
 import CateringSection from "@/components/CateringSection";
 import RecommendationSection from "@/components/RecommendationSection";
 import Navigation from "@/components/NavigationSection";
+import ReservationSection from "@/components/ReservationSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FavoritesSection />
       <MenuSection />
       <CateringSection />
+      <ReservationSection />
     </>
   );
 }

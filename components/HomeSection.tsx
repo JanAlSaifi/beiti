@@ -7,9 +7,8 @@ export default function HomeSection() {
         <Image
           src="/michael-starkie.jpg"
           alt="Background Image"
-          layout="fill"
-          objectFit="cover"
-          className="brightness-50"
+          fill
+          className="brightness-50 object-cover"
         />
       </div>
       <div className="relative flex flex-col h-screen justify-center items-center text-center px-4">

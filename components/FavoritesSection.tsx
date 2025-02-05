@@ -45,11 +45,8 @@ export default function FavoritesSection() {
   ];
 
   return (
-    <section
-      id="favorites"
-      className="pb-10  min-h-screen flex items-stretch overflow-hidden"
-    >
-      <div className="mx-10 py-4">
+    <section id="favorites" className="pb-10 flex">
+      <div className="mx-10 py-4  ">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-[#d4af37]">
             Favoriten der Gäste
@@ -71,6 +68,7 @@ export default function FavoritesSection() {
                     alt="Image of Food"
                     src={item.backgroundImage}
                     fill
+                    sizes="auto"
                     className="object-cover"
                   ></Image>
                 </div>
@@ -87,7 +85,6 @@ export default function FavoritesSection() {
               </div>
             </>
           ))}
-          ;
         </div>
       </div>
     </section>

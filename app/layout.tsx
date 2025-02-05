@@ -29,9 +29,9 @@ export default function RootLayout({
               Impressum
             </a>
           </p>
-          <p>Bilder & Design: Jan Al Saifi</p>
+          <p>Design: Jan Al Saifi</p>
           <p className="pb-3 ">
-            <a href="#" className="js-gotop">
+            <a href="#" className="">
               Nach Oben
             </a>
           </p>

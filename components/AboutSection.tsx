@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="aboutSection" className="h-screen pb-8">
+    <section id="aboutSection" className="pb-10">
       <div className="flex flex-col lg:flex-row w-full h-full">
         <div className="hidden md:block lg:w-2/3 h-full p-2 ">
           <img
@@ -11,9 +11,9 @@ export default function AboutSection() {
         </div>
 
         <div className=" w-full lg:w-1/3 flex flex-col justify-center items-center flex-1">
-          <div className="bg-[#2b2b2b] rounded-lg m-10 p-4 shadow-lg text-center">
-            <h2 className="text-5xl text-[#f5f5f5] font-bold mb-6">Über uns</h2>
-            <p className="text-[#f5f5f5] text-lg leading-relaxed">
+          <div className="bg-[#2b2b2b] text-[#f5f5f5] rounded-lg m-10 p-4 shadow-lg text-center">
+            <h2 className="text-5xl font-bold mb-6">Über uns</h2>
+            <p className="text-lg leading-relaxed">
               Gastfreundschaft hat im Libanon Tradition – Gäste bewirten, Fremde
               zu Freunden machen. Im <strong>Beiti</strong> leben wir diese
               Werte mit authentischer Küche und einladender Atmosphäre.
@@ -26,12 +26,21 @@ export default function AboutSection() {
               <br />
               Erleben Sie libanesische Gastfreundschaft in Hamburg!
             </p>
+            <p className="mt-6">Kontaktieren Sie uns:</p>
             <p className="mt-6">
               <a
-                href="#"
+                href="info@beiti-hamburg.de"
                 className="text-[#d4af37] underline font-medium hover:text-[#b8860b] transition-colors duration-300"
               >
-                Kontaktieren Sie uns
+                info@beiti-hamburg.de
+              </a>
+            </p>
+            <p className="mt-6">
+              <a
+                href="040 69459970"
+                className="text-[#d4af37] underline font-medium hover:text-[#b8860b] transition-colors duration-300"
+              >
+                040 69459970
               </a>
             </p>
           </div>
