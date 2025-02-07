@@ -40,24 +40,22 @@ export default function MenuSection() {
   return (
     <section id="menu" className="pb-10">
       <div className="container mx-auto px-2">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-[#d4af37]">
+        <div className="text-center mb-12 text-mainText">
+          <h2 className="text-4xl font-bold text-highlight">
             Aus der Speisekarte
           </h2>
-          <p className="text-[#f5f5f5] text-lg">
-            Weiteres aus der Speise- & Getränkekarte.
-          </p>
+          <p className="text-lg">Weiteres aus der Speise- & Getränkekarte.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-3xl font-bold text-[#d4af37] mb-6">Getränke</h3>
+            <h3 className="text-3xl font-bold text-highlight mb-6">Getränke</h3>
             <ul className="space-y-6">
               {drinksMenu.map((item, index) => (
                 <>
                   <li
                     key={index}
-                    className="bg-[#2b2b2b] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300"
+                    className="bg-backgroundBox rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300"
                   >
                     <div className="flex items-center gap-4 relative">
                       <Image
@@ -67,14 +65,14 @@ export default function MenuSection() {
                         height={200}
                         className="object-cover rounded-lg"
                       ></Image>
-                      <div className="flex flex-col flex-1">
+                      <div className="flex flex-col flex-1 text-mainText">
                         <div>
-                          <h4 className="text-xl font-semibold text-[#f5f5f5] mb-2">
+                          <h4 className="text-xl font-semibold  mb-2">
                             {item.title}
                           </h4>
                           <p className="text-[#bbbbbb]">{item.description}</p>
                         </div>
-                        <span className="text-lg font-bold text-[#d4af37] text-center block mt-2">
+                        <span className="text-lg font-bold text-highlight text-center block mt-2">
                           {item.price}
                         </span>
                       </div>
@@ -86,7 +84,7 @@ export default function MenuSection() {
           </div>
 
           <div>
-            <h3 className="text-3xl font-bold text-[#d4af37] mb-6">Menüs</h3>
+            <h3 className="text-3xl font-bold text-highlight mb-6">Menüs</h3>
             <ul className="space-y-6">
               {foodMenu.map((item, index) => (
                 <>
@@ -102,14 +100,14 @@ export default function MenuSection() {
                         height={200}
                         className="object-cover rounded-lg"
                       ></Image>
-                      <div className="flex flex-col flex-1">
+                      <div className="flex flex-col flex-1 text-mainText">
                         <div>
-                          <h4 className="text-xl font-semibold text-[#f5f5f5] mb-2">
+                          <h4 className="text-xl font-semibold  mb-2">
                             {item.title}
                           </h4>
                           <p className="text-[#bbbbbb]">{item.description}</p>
                         </div>
-                        <span className="text-lg font-bold text-[#d4af37] text-center block mt-2">
+                        <span className="text-lg font-bold text-highlight text-center block mt-2">
                           {item.price}
                         </span>
                       </div>
@@ -120,10 +118,10 @@ export default function MenuSection() {
             </ul>
           </div>
         </div>
-        <div className="text-center p-10">
+        <div className="text-center p-10 text-highlight">
           <a
-            href="/Speisekarte.pdf"
-            className="text-[#d4af37] border border-[#d4af37] py-3 px-6 rounded-lg hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors"
+            href="/pdf/Speisekarte.pdf"
+            className="border border-textHover py-3 px-6 rounded-lg hover:bg-textHover hover:text-[#1a1a1a] transition-colors"
           >
             Speisekarte ansehen
           </a>

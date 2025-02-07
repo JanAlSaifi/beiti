@@ -48,10 +48,10 @@ export default function FavoritesSection() {
     <section id="favorites" className="pb-10 flex">
       <div className="mx-10 py-4  ">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-[#d4af37]">
+          <h2 className="text-4xl font-bold text-highlight">
             Favoriten der Gäste
           </h2>
-          <p className="text-lg text-[#f5f5f5] mt-4">
+          <p className="text-lg text-mainText mt-4">
             Hier kommen unsere Top 6.
           </p>
         </div>
@@ -73,14 +73,12 @@ export default function FavoritesSection() {
                   ></Image>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="text-2xl font-semibold text-[#f5f5f5]">
-                    {item.title}
-                  </h3>
-                  <span className="block text-lg font-bold text-yellow-600 mt-2">
+                <div className="p-6 text-mainText">
+                  <h3 className="text-2xl font-semibold">{item.title}</h3>
+                  <span className="block text-lg font-bold text-textHover mt-2">
                     {item.price}
                   </span>
-                  <p className="text-[#f5f5f5] mt-4">{item.description}</p>
+                  <p className=" mt-4">{item.description}</p>
                 </div>
               </div>
             </>

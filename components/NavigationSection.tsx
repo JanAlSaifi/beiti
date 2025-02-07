@@ -5,7 +5,7 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-[#2b2b2b] bg-opacity-75 rounded-lg z-20 fixed top-0 shadow-md py-2">
+    <nav className="w-full bg-[#2b2b2b] bg-opacity-95 rounded-lg z-20 fixed top-0 shadow-md py-2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="md:hidden">
           <button

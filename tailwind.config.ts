@@ -13,7 +13,7 @@ export default {
         homepageTitle: ["Allura", "cursive"],
         homepageSubtitle: ["Playfair Display", "serif"],
         title: ["Poppins", "sans-serif"],
-        text: ["Inter", "sans-serif"],
+        text: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
         home: "url('/img/michael-starkie.jpg')",

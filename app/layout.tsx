@@ -23,7 +23,7 @@ export default function RootLayout({
           <p className="mt-2">
             <a
               href="mailto:info@beiti-hamburg.de"
-              className="text-headerText underline font-medium hover:text-textHover transition-colors duration-300"
+              className="text-highlight underline font-medium hover:text-textHover transition-colors duration-300"
             >
               info@beiti-hamburg.de
             </a>
@@ -43,7 +43,7 @@ export default function RootLayout({
             Mo.-Sa. 17.00 - 23.00 Uhr, Küche bis 22.00 Uhr.
           </p>
           <p className="pb-3 text-highlight">
-            <a href="images/Impressum.pdf" target="_blank">
+            <a href="/pdf/Impressum.pdf" target="_blank">
               Impressum
             </a>
           </p>

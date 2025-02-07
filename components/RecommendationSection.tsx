@@ -3,31 +3,33 @@ import Image from "next/image";
 export default function RecommendationSection() {
   return (
     <section id="recommendation" className="pb-10">
-      <div className="bg-[#2b2b2b] rounded-lg shadow-lg mx-10 p-4">
+      <div className="bg-backgroundBox rounded-lg shadow-lg mx-10 p-4">
         <div className="">
-          <h2 className="text-4xl font-bold text-[#d4af37] py-4 text-center">
+          <h2 className="text-4xl font-bold text-highlight py-4 text-center">
             Empfehlung des Chefs
           </h2>
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <Image
-              alt="Image of a the chef"
-              src="/img/DerChef.jpg"
-              width={250}
-              height={250}
-              className="m-5 object-cover rounded-full border-4 border-[#d4af37]"
-            ></Image>
-
-            <div className="flex flex-col text-center md:text-left gap-2 md:gap-4">
-              <h3 className="text-2xl text-[#f5f5f5] font-semibold ">
+          <div className="flex flex-col items-center md:flex-row md:items-center justify-center gap-2">
+            <div className="flex justify-center flex-1 -mr-[500px]">
+              <Image
+                alt="Image of the chef"
+                src="/img/DerChef.jpg"
+                width={250}
+                height={250}
+                className="m-5 object-cover rounded-full border-4 border-highlight"
+              />
+            </div>
+            <div className="flex flex-col text-mainText gap-2 md:gap-4 items-center text-center flex-1">
+              <h3 className="text-2xl font-semibold">
                 <span className="underline">
                   Lammhüftensteak auf Schafskäse-Thymian-Sauce
                 </span>
               </h3>
-              <p className="text-[#f5f5f5] leading-relaxed">
+              <p className="leading-relaxed">
                 Genießen Sie diesen Monat unser zartes Lammhüftensteak, perfekt
-                gebraten und serviert auf einer aromatischen
-                Schafskäse-Thymian-Sauce – eine harmonische Komposition voller
-                mediterraner Aromen. <br /> Lassen Sie sich verwöhnen!
+                gebraten und serviert auf
+                <br /> einer aromatischen Schafskäse-Thymian-Sauce – eine
+                harmonische Komposition voller mediterraner Aromen.
+                <br /> Lassen Sie sich verwöhnen!
               </p>
             </div>
           </div>
