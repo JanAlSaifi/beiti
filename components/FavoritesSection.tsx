@@ -46,7 +46,7 @@ export default function FavoritesSection() {
 
   return (
     <section id="favorites" className="pb-10 flex">
-      <div className="mx-10 py-4  ">
+      <div className="mx-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-highlight">
             Favoriten der Gäste

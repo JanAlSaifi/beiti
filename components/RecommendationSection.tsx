@@ -8,17 +8,17 @@ export default function RecommendationSection() {
           <h2 className="text-4xl font-bold text-highlight py-4 text-center">
             Empfehlung des Chefs
           </h2>
-          <div className="flex flex-col items-center md:flex-row md:items-center justify-center gap-2">
-            <div className="flex justify-center flex-1 -mr-[500px]">
+          <div className="flex flex-col items-center  md:flex-row md:items-center  gap-2">
+            <div className="flex flex-1 justify-center">
               <Image
                 alt="Image of the chef"
                 src="/img/DerChef.jpg"
                 width={250}
                 height={250}
-                className="m-5 object-cover rounded-full border-4 border-highlight"
+                className="object-cover rounded-full border-4 border-highlight"
               />
             </div>
-            <div className="flex flex-col text-mainText gap-2 md:gap-4 items-center text-center flex-1">
+            <div className="flex flex-col text-mainText gap-2 md:gap-4 items-left text-left flex-1">
               <h3 className="text-2xl font-semibold">
                 <span className="underline">
                   Lammhüftensteak auf Schafskäse-Thymian-Sauce
