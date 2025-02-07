@@ -6,19 +6,25 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
+
   theme: {
     extend: {
       fontFamily: {
-        title: ["Roboto", "sans-serif"],
-        text: ["Proza Libre", "serif"],
+        homepageTitle: ["Allura", "cursive"],
+        homepageSubtitle: ["Playfair Display", "serif"],
+        title: ["Poppins", "sans-serif"],
+        text: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        home: "url('/michael-starkie.jpg')",
+        home: "url('/img/michael-starkie.jpg')",
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        backgroundBox: "var(--backgroundBox)",
+        highlight: "var(--highlightText)",
+        mainText: "var(--mainText)",
+        textHover: "var(--textHover)",
       },
     },
   },

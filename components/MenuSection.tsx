@@ -6,20 +6,20 @@ export default function MenuSection() {
       title: "Ixsir Rouge",
       price: "42.00€",
       description: "Weich und seidig, Eichenaroma und reifer schwarzer Früchte",
-      backgroundImage: "/res_img_1.jpg",
+      backgroundImage: "/img/res_img_1.jpg",
     },
     {
       title: "Arak",
       price: "5.50€",
       description: "Weich und seidig, Eichenaroma und reifer schwarzer Früchte",
-      backgroundImage: "/IMG_20210928_124523.jpg",
+      backgroundImage: "/img/IMG_20210928_124523.jpg",
     },
     {
       title: "Château Musar Jeune",
       price: "58.00€",
       description:
         "Ein lebendiger, fruchtbetonter Wein aus dem Libanon, der mit mediterraner Frische und eleganter Struktur begeistert.",
-      backgroundImage: "/res_img_50.jpg",
+      backgroundImage: "/img/res_img_50.jpg",
     },
   ];
   const foodMenu = [
@@ -27,19 +27,13 @@ export default function MenuSection() {
       title: "Beiti 3-Gänge Menü",
       price: "37.50€",
       description: "Mesa, Hauptgericht Ihrer Wahl und Dessert",
-      backgroundImage: "/IMG_20210922_223236.jpg",
+      backgroundImage: "/img/IMG_20210922_223236.jpg",
     },
     {
-      title: "3-Gänge Lammrückenmenü",
+      title: "3-Gänge Lammrücken Menü",
       price: "45.00€",
       description: "Mesa, Lammrückenfilet auf Joghurt-minz-sauce, Katayf",
-      backgroundImage: "/res_img_7.jpg",
-    },
-    {
-      title: "Grillmenü",
-      price: "37.50€",
-      description: "Speisen Sie wie im Libanon, Ab 2 Personen",
-      backgroundImage: "/res_img_6.jpg",
+      backgroundImage: "/img/res_img_7.jpg",
     },
   ];
 

@@ -4,15 +4,15 @@ export default function AboutSection() {
       <div className="flex flex-col lg:flex-row w-full h-full">
         <div className="hidden md:block lg:w-2/3 h-full p-2 ">
           <img
-            src="BeitiFrontBreit.jpg"
+            src="/img/BeitiFrontBreit.jpg"
             alt="slider image"
             className="w-full h-full object-cover blur-xs brightness-50 rounded-lg"
           />
         </div>
 
         <div className=" w-full lg:w-1/3 flex flex-col justify-center items-center flex-1">
-          <div className="bg-[#2b2b2b] text-[#f5f5f5] rounded-lg m-10 p-4 shadow-lg text-center">
-            <h2 className="text-5xl font-bold mb-6">Über uns</h2>
+          <div className="bg-backgroundBox rounded-lg m-10 p-4 shadow-lg text-center">
+            <h2 className="text-5xl text-highlight font-bold mb-6">Über uns</h2>
             <p className="text-lg leading-relaxed">
               Gastfreundschaft hat im Libanon Tradition – Gäste bewirten, Fremde
               zu Freunden machen. Im <strong>Beiti</strong> leben wir diese
@@ -29,16 +29,16 @@ export default function AboutSection() {
             <p className="mt-6">Kontaktieren Sie uns:</p>
             <p className="mt-6">
               <a
-                href="info@beiti-hamburg.de"
-                className="text-[#d4af37] underline font-medium hover:text-[#b8860b] transition-colors duration-300"
+                href="mailto:info@beiti-hamburg.de"
+                className="text-highlight underline font-medium hover:text-textHover transition-colors duration-300"
               >
                 info@beiti-hamburg.de
               </a>
             </p>
             <p className="mt-6">
               <a
-                href="040 69459970"
-                className="text-[#d4af37] underline font-medium hover:text-[#b8860b] transition-colors duration-300"
+                href="tel:+4940 69459970"
+                className="text-highlight underline font-medium hover:text-textHover transition-colors duration-300"
               >
                 040 69459970
               </a>

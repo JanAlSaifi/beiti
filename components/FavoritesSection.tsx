@@ -6,41 +6,41 @@ export default function FavoritesSection() {
       price: "37,00€",
       description:
         "Ein feiner Wein mit intensivem und komplexem Charakter. Die Früchte sind gut ausgereift mit weichen und seidigen Gerbstoffen.",
-      backgroundImage: "/res_img_90.jpg",
+      backgroundImage: "/img/res_img_90.jpg",
     },
     {
       title: "Dajaj bel Tamer",
       price: "21,00€",
       description:
         "Marinierte Hähnchenbrust mit Kardamom auf Dattel-Rosmarin Sauce.",
-      backgroundImage: "/res_img_2.jpg",
+      backgroundImage: "/img/res_img_2.jpg",
     },
     {
       title: "Falafel",
       price: "17,00€",
       description:
         "Frittierte Kichererbsen-Medaillons mit Sesam-Sauce und Salat.",
-      backgroundImage: "/res_img_10.jpg",
+      backgroundImage: "/img/res_img_10.jpg",
     },
     {
       title: "Lammfilet",
       price: "28,50€",
       description: "Auf Granatapfel-Sauce mit Gemüse & Basmatireis.",
-      backgroundImage: "/res_img_7.jpg",
+      backgroundImage: "/img/res_img_7.jpg",
     },
     {
       title: "Beiti Grillplatte",
       price: "26,50€",
       description:
         "Verschiedene Fleischsorten dazu Salat, Sumakbrot und Basmatireis.",
-      backgroundImage: "/res_img_6.jpg",
+      backgroundImage: "/img/res_img_6.jpg",
     },
     {
       title: "Beiti Mesa",
       price: "20,50€",
       description:
         "Ein unvergesslicher Augen- & Gaumenschmaus, vegetarisch und vegan.",
-      backgroundImage: "/res_img_9.jpg",
+      backgroundImage: "/img/res_img_9.jpg",
     },
   ];
 

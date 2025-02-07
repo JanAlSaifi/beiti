@@ -1,73 +1,94 @@
 "use client";
-import { useRef } from "react";
+import { useState } from "react";
 
 export default function Navigation() {
-  const navRef = useRef<HTMLDivElement>(null);
-  const toggleNav = () =>
-    navRef.current && navRef.current.classList.toggle("hidden");
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="w-full bg-[#f5f5f5] bg-opacity-75 rounded-lg z-20 fixed top-0">
+    <nav className="w-full bg-[#2b2b2b] bg-opacity-75 rounded-lg z-20 fixed top-0 shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <div className="md:hidden">
           <button
-            onClick={toggleNav}
+            onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 z-21 justify-center text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center rounded-lg"
             aria-controls="navbar-sticky"
-            aria-expanded="false"
+            aria-expanded={isOpen}
           >
             <span className="sr-only">Open navigation</span>
             <svg
-              className="w-5 h-5"
+              className="w-6 h-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 17 14"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
             >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
+              {isOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              )}
             </svg>
           </button>
         </div>
-        <div ref={navRef} className="hidden w-full md:flex md:w-auto">
-          <ul className="relative flex flex-col p-4 m-2 gap-4 md:p-0 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row whitespace-nowrap">
+
+        <div
+          className={`w-full md:flex md:w-auto transition-all duration-300 ${
+            isOpen ? "block" : "hidden"
+          }`}
+        >
+          <ul className="flex flex-col hover:text-mainText md:whitespace-nowrap md:flex-row items-center p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-6 text-base md:text-lg lg:text-xl">
             <li>
-              <a href="#" className="">
+              <a href="#" className="hover:text-textHover transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#aboutSection" className="">
+              <a
+                href="#aboutSection"
+                className="hover:text-textHover transition"
+              >
                 Über uns
               </a>
             </li>
             <li>
-              <a href="#recommendation" className="">
+              <a
+                href="#recommendation"
+                className="hover:text-textHover transition"
+              >
                 Empfehlung
               </a>
             </li>
             <li>
-              <a href="#favorites" className="">
+              <a href="#favorites" className="hover:text-textHover transition">
                 Favoriten
               </a>
             </li>
             <li>
-              <a href="#menu" className="">
+              <a href="#menu" className="hover:text-textHover transition">
                 Speisekarte
               </a>
             </li>
             <li>
-              <a href="#catering" className="">
+              <a href="#catering" className="hover:text-textHover transition">
                 Catering
               </a>
             </li>
             <li>
-              <a href="#reservation" className="">
+              <a
+                href="#reservation"
+                className="hover:text-textHover transition"
+              >
                 Reservierung
               </a>
             </li>

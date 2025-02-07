@@ -11,7 +11,7 @@ export default function RecommendationSection() {
           <div className="flex flex-col md:flex-row items-center gap-6">
             <Image
               alt="Image of a the chef"
-              src="/DerChef.jpg"
+              src="/img/DerChef.jpg"
               width={250}
               height={250}
               className="m-5 object-cover rounded-full border-4 border-[#d4af37]"

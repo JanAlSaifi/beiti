@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Beiti ",
@@ -14,10 +14,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="text-center bg-background">{children}</main>
+        <main className="text-center bg-background text-mainText">
+          {children}
+        </main>
 
         <footer className="text-center bg-background text-[#f5f5f5] py-10">
-          <p className="pb-3">Rufen Sie uns an: 040 69459970</p>
+          <p className="mt-2">Kontaktieren Sie uns:</p>
+          <p className="mt-2">
+            <a
+              href="mailto:info@beiti-hamburg.de"
+              className="text-headerText underline font-medium hover:text-[#b8860b] transition-colors duration-300"
+            >
+              info@beiti-hamburg.de
+            </a>
+          </p>
+          <p className="my-2">
+            <a
+              href="tel:+4940 69459970"
+              className="text-[#d4af37] underline font-medium hover:text-[#b8860b] transition-colors duration-300"
+            >
+              040 69459970
+            </a>
+          </p>
           <p className="pb-2">
             &copy; 2025 Restaurant Beiti. Alsterdorfer Str. 76, 22299 Hamburg.
           </p>
