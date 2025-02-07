@@ -5,7 +5,7 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-[#2b2b2b] bg-opacity-75 rounded-lg z-20 fixed top-0 shadow-md">
+    <nav className="w-full bg-[#2b2b2b] bg-opacity-75 rounded-lg z-20 fixed top-0 shadow-md py-2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="md:hidden">
           <button
@@ -49,14 +49,14 @@ export default function Navigation() {
         >
           <ul className="flex flex-col hover:text-mainText md:whitespace-nowrap md:flex-row items-center p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-6 text-base md:text-lg lg:text-xl">
             <li>
-              <a href="#" className="hover:text-textHover transition">
+              <a href="#" className="py-2 px-4 hover:text-mainText transition">
                 Home
               </a>
             </li>
             <li>
               <a
                 href="#aboutSection"
-                className="hover:text-textHover transition"
+                className="py-2 px-4 hover:text-mainText transition"
               >
                 Über uns
               </a>
@@ -64,30 +64,39 @@ export default function Navigation() {
             <li>
               <a
                 href="#recommendation"
-                className="hover:text-textHover transition"
+                className="py-2 px-4 hover:text-mainText transition"
               >
                 Empfehlung
               </a>
             </li>
             <li>
-              <a href="#favorites" className="hover:text-textHover transition">
+              <a
+                href="#favorites"
+                className="py-2 px-4 hover:text-mainText transition"
+              >
                 Favoriten
               </a>
             </li>
             <li>
-              <a href="#menu" className="hover:text-textHover transition">
+              <a
+                href="#menu"
+                className="py-2 px-4 hover:text-mainText transition"
+              >
                 Speisekarte
               </a>
             </li>
             <li>
-              <a href="#catering" className="hover:text-textHover transition">
+              <a
+                href="#catering"
+                className="py-2 px-4 hover:text-mainText transition"
+              >
                 Catering
               </a>
             </li>
             <li>
               <a
                 href="#reservation"
-                className="hover:text-textHover transition"
+                className="py-2 px-4 hover:text-mainText transition"
               >
                 Reservierung
               </a>
