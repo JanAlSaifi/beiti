@@ -27,13 +27,13 @@ export default function MenuSection() {
       title: "Beiti 3-Gänge Menü",
       price: "37.50€",
       description: "Mesa, Hauptgericht Ihrer Wahl und Dessert",
-      backgroundImage: "/img/IMG_20210922_223236.jpg",
+      backgroundImage: "/img/3192494_beiti_Hero.jpg",
     },
     {
       title: "3-Gänge Lammrücken Menü",
       price: "45.00€",
       description: "Mesa, Lammrückenfilet auf Joghurt-minz-sauce, Katayf",
-      backgroundImage: "/img/res_img_7.jpg",
+      backgroundImage: "/img/3192494_beiti_Food_mesa_spezial_3x_fleisch.jpg",
     },
   ];
 
@@ -51,10 +51,10 @@ export default function MenuSection() {
           <div>
             <h3 className="text-3xl font-bold text-highlight mb-6">Getränke</h3>
             <ul className="space-y-6">
-              {drinksMenu.map((item, index) => (
+              {drinksMenu.map((item) => (
                 <>
                   <li
-                    key={index}
+                    key={item.title}
                     className="bg-backgroundBox rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300"
                   >
                     <div className="flex items-center gap-4 relative">

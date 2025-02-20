@@ -49,9 +49,9 @@ export default function CateringSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-mainText">
-          {eventCards.map((event, index) => (
+          {eventCards.map((event) => (
             <div
-              key={index}
+              key={event.title}
               className="bg-backgroundBox rounded-lg shadow-lg p-8 hover:shadow-[0_4px_15px_rgba(212,175,55,0.5)] transition-shadow duration-300"
             >
               <h3 className="text-2xl font-semibold text-highlight mb-2">

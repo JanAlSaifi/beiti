@@ -13,20 +13,20 @@ export default function FavoritesSection() {
       price: "21,00€",
       description:
         "Marinierte Hähnchenbrust mit Kardamom auf Dattel-Rosmarin Sauce.",
-      backgroundImage: "/img/res_img_2.jpg",
+      backgroundImage: "/img/3192494_beiti_Food_dajaj_bel_tamer.jpg",
     },
     {
       title: "Falafel",
       price: "17,00€",
       description:
         "Frittierte Kichererbsen-Medaillons mit Sesam-Sauce und Salat.",
-      backgroundImage: "/img/res_img_10.jpg",
+      backgroundImage: "/img/3192494_beiti_Food_falafel.jpg",
     },
     {
       title: "Lammfilet",
       price: "28,50€",
       description: "Auf Granatapfel-Sauce mit Gemüse & Basmatireis.",
-      backgroundImage: "/img/res_img_7.jpg",
+      backgroundImage: "/img/3192494_beiti_Food_lammfilet.jpg",
     },
     {
       title: "Beiti Grillplatte",
@@ -40,7 +40,7 @@ export default function FavoritesSection() {
       price: "20,50€",
       description:
         "Ein unvergesslicher Augen- & Gaumenschmaus, vegetarisch und vegan.",
-      backgroundImage: "/img/res_img_9.jpg",
+      backgroundImage: "/img/beiti_Food_beiti_mesa_.jpg",
     },
   ];
 
@@ -57,13 +57,16 @@ export default function FavoritesSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-12">
-          {menuItems.map((item, index) => (
+          {menuItems.map((item) => (
             <>
               <div
-                key={index}
+                key={item.title}
                 className="bg-[#333333] rounded-lg shadow-lg overflow-hidden"
               >
-                <div className="h-56 bg-cover bg-center relative">
+                <div
+                  className="h-56 bg-cover bg-center relative"
+                  key={item.backgroundImage}
+                >
                   <Image
                     alt="Image of Food"
                     src={item.backgroundImage}
@@ -73,7 +76,7 @@ export default function FavoritesSection() {
                   ></Image>
                 </div>
 
-                <div className="p-6 text-mainText">
+                <div className="p-6 text-mainText" key={item.title}>
                   <h3 className="text-2xl font-semibold">{item.title}</h3>
                   <span className="block text-lg font-bold text-textHover mt-2">
                     {item.price}

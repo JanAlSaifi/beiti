@@ -27,10 +27,20 @@ export default function RecommendationSection() {
               <p className="leading-relaxed">
                 Genießen Sie diesen Monat unser zartes Lammhüftensteak, perfekt
                 gebraten und serviert auf
-                <br /> einer aromatischen Schafskäse-Thymian-Sauce – eine
-                harmonische Komposition voller mediterraner Aromen.
+                <br />
+                einer aromatischen Schafskäse-Thymian-Sauce – eine harmonische
+                Komposition voller mediterraner Aromen.
                 <br /> Lassen Sie sich verwöhnen!
               </p>
+            </div>
+            <div className="flex flex-1 justify-center">
+              <Image
+                alt="Image of the chef"
+                src="/img/LRF.jpg"
+                width={250}
+                height={250}
+                className="object-cover rounded-full "
+              />
             </div>
           </div>
         </div>

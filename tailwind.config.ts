@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        homepageTitle: ["Allura", "cursive"],
+        homepageTitle: ["Allura", ""],
         homepageSubtitle: ["Playfair Display", "serif"],
         title: ["Poppins", "sans-serif"],
         text: ["Montserrat", "sans-serif"],
